@@ -11,6 +11,6 @@ sudo chown $USER:$USER /opt/rick/roll.sh
 
 cp Rickroll.desktop ~/.local/share/applications
 
-cd ~ && rm ~/rick
+cd ~ && rm -r ~/rick
 
 notify-send -i /opt/rick/rick.png --urgency=low --app-name="" Rickroll Installed
