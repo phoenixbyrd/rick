@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Rickroll
+Comment=Notification rickroller
+Exec=/opt/rick/rick.sh
+Icon=/opt/rick/rick.png
+Path=/opt/rick/
+Terminal=false
+StartupNotify=false
